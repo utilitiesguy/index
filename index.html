@@ -3,16 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index Page</title>
+    <title>Clean Index Page</title>
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Welcome to the Website</h1>
-        <p>Click the button below to go to your choosed website!</p>
-        <a href="/to-do-list" class="redirect-button">Go to To-Do List</a>
-	<a href="/calculator" class="redirect-button">Calculator</a>
-	<a href="/mood" class="redirect-button">Mood Tracker</a>
+        <div class="button-container">
+	    <h1>THE INDEX</h1>
+            <button onclick="window.location.href='/to-do-list'">Go to Dashboard</button>
+            <button onclick="window.location.href='/calculator'">Login</button>
+            <button onclick="window.location.href='/mood'">About</button>
+        </div>
     </div>
 </body>
 </html>
