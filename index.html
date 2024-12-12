@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clean Index Page</title>
+    <title>THE INDEX</title>
     <link rel="stylesheet" href="static/styles.css">
 </head>
 <body>
-    <div class="container">
-        <div class="button-container">
-	    <h1>THE INDEX</h1>
-            <button onclick="window.location.href='/to-do-list'">Go to Dashboard</button>
-            <button onclick="window.location.href='/calculator'">Login</button>
-            <button onclick="window.location.href='/mood'">About</button>
+    <div class="main-wrapper">
+        <div class="container">
+            <h1 class="title">THE INDEX</h1>
+            <div class="button-container">
+                <button class="btn" onclick="window.location.href='/to-do-list'">To-Do List</button>
+                <button class="btn" onclick="window.location.href='/calculator'">Calculator</button>
+                <button class="btn" onclick="window.location.href='/mood'">Mood Tracker</button>
+            </div>
         </div>
     </div>
 </body>
